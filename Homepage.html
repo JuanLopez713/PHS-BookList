@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-    
-      <link rel="stylesheet" href="HomepageStyle.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    
-<script src="http://papaparse.com/resources/js/papaparse.js"></script>
-    <meta charset="UTF-8">
-<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <head>
+
+        <link rel="stylesheet" href="HomepageStyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <script src="http://papaparse.com/resources/js/papaparse.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     </head>
 
-<body>
-    
-    
-    <div id="header">
-        
-        <h1>Providence High School Book List Search</h1>
-    <h2>YOU BELONG HERE.</h2></div>
-    
-    <div id="searchbar">
-    <input id="emp_search" placeholder="Type Your Search..." required="">
-    <input id="search" type="button" value="Search" />
-      
-    </div>
-    
-    
-    
-<div id="main">
-    <!--
-    <div id="tablehead">
-    <table id="headers" cellpadding="20" cellspacing="0" border="1">
+    <body>
+
+
+        <div id="header">
+
+            <h1>Providence High School Book List Search</h1>
+            <h2>YOU BELONG HERE.</h2></div>
+
+        <div id="searchbar">
+            <input id="emp_search" placeholder="Type Your Search..." required="">
+            <input id="search" type="button" value="Search" />
+
+        </div>
+
+
+
+        <div id="main">
+            <!--
+<div id="tablehead">
+<table id="headers" cellpadding="20" cellspacing="0" border="1">
 <thead>
-            <tr>
-     
+<tr>
+
 <th>Course</th>
 <th>Department</th>
 <th>Title</th>
@@ -43,178 +43,178 @@
 <th>Grade</th>
 <th>Course Code</th>
 <th>Notes</th>
-          </tr>
-        </thead>
-    </table>
-    </div>
-   -->
-    <div id="maintable" >
-    <table id="books" cellpadding="20" cellspacing="0" border="1">
-        <thead>
-            <tr>
-     
-<th>Course</th>
-<th>Department</th>
-<th>Title</th>
-<th>ISBN</th>
-<th>Author</th>
-<th>Edition</th>
-<th>Publisher</th>
-<th>Grade</th>
-<th>Course Code</th>
-<th>Notes</th>
-          </tr>
-        </thead>
-        
-        
-		<tbody>
-            <!-- THIS IS THE BODY OF THE TABLE-->
-            
-		</tbody>
-	</table>
-    
-   </div>
-    
-    </div>
-    
-    
-    
-    
-    <script>
-        
-        
-        
-        
-        $(function() {
-            
-	var results = Papa.parse("BookList2016.csv", {
-        header: true,
-		download: true,
-		complete: function(results) {
-			console.log("Remote file parsed!", results.data);
-			$.each(results.data, function(i, el) {
-				
-                
-                
-                           var row = $("<tr/>");
-                
-				row.append($("<td/>").text());
-				$.each(el, function(j, cell) {
-					
-                    
-                        
-                    
-                    
-                    
-                 row.append($("<td/>").text(cell));
-				});
-				$("#books tbody").append(row);
-               
-			
-		
-        
-       
-        
-        });
-            var str = $('#books td:nth-child(4)').text();
-            str.prepend(("https://www.google.com/#q=").text());
-            
-          $('#books td:nth-child(4)').append("test"); 
-       
-        }
-	});
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        });
-        
+</tr>
+</thead>
+</table>
+</div>
+-->
+            <div id="maintable" >
+                <table id="books" cellpadding="20" cellspacing="0" border="1">
+                    <thead>
+                        <tr>
+
+                            <th>Course</th>
+                            <th>Department</th>
+                            <th>Title</th>
+                            <th>ISBN</th>
+                            <th>Author</th>
+                            <th>Edition</th>
+                            <th>Publisher</th>
+                            <th>Grade</th>
+                            <th>Course Code</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
 
 
-   if (!RegExp.escape) {
-    RegExp.escape = function (s) {
-        return s.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&")
-    };
-}
+                    <tbody>
+                        <!-- THIS IS THE BODY OF THE TABLE-->
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
 
 
-    var $table = $('#books');
-    var bands = [];
-    $table.find('td:nth-child(3)').each(function () {
-        var text = $.trim($(this).text()).toLowerCase();
-        if ($.inArray(text, bands) == -1) {
-            bands.push(text);
-        }
-    }).get();
 
-    ///search this table
-    $(' #search ').click(function () {
-        var parts = $(' #emp_search ').val().split(/\s+/);
 
-        var bns = [],
-            i = 0,
-            idx;
-        while (i < parts.length) {
-            idx = $.inArray(parts[i].toLowerCase(), bands);
-            if (idx >= 0) {
-                bns.push(parts.splice(i, 1)[0]);
-            } else {
-                i++;
+        <script>
+
+
+
+
+            $(function() {
+
+                var results = Papa.parse("BookList2016.csv", {
+                    header: true,
+                    download: true,
+                    complete: function(results) {
+                        console.log("Remote file parsed!", results.data);
+                        $.each(results.data, function(i, el) {
+
+
+
+                            var row = $("<tr/>");
+
+                            row.append($("<td/>").text());
+                            $.each(el, function(j, cell) {
+
+
+
+
+
+
+                                row.append($("<td/>").text(cell));
+                            });
+                            $("#books tbody").append(row);
+
+
+
+
+
+
+                        });
+                        var str = $('#books td:nth-child(4)').text();
+                        str.prepend(("https://www.google.com/#q=").text());
+
+                        $('#books td:nth-child(4)').append("test"); 
+
+                    }
+                });
+
+
+
+
+
+
+
+
+
+
+            });
+
+
+
+            if (!RegExp.escape) {
+                RegExp.escape = function (s) {
+                    return s.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&")
+                };
             }
-        }
 
-        var nameexp = parts.length ? new RegExp(parts.join('|'), 'im') : false;
-        var bnexp = bns.length ? new RegExp(bns.join('|'), 'im') : false;
 
-        $("#books").find("tr").slice(1).each(function (index) {
-            var $this = $(this);
-           var name = $.trim($this.children().not(':nth-child(11)').text());
-            var band = $.trim($this.children(':nth-child(11)').text());
-             $(this).toggle((!nameexp || nameexp.test(name)) && (!bnexp || bnexp.test(band)));
-        });
-    });
-     
-        //PRESS ENTER TO SEARCH
-        $(document).ready(function(){
-    $('#emp_search').keypress(function(e){
-      if(e.keyCode==13)
-      $('#search').click();
-    });
-});
-        
-        
-        
-        
-        
-        
-        
-        //CLICK ROW TO LINK
-     /*  
+            var $table = $('#books');
+            var bands = [];
+            $table.find('td:nth-child(3)').each(function () {
+                var text = $.trim($(this).text()).toLowerCase();
+                if ($.inArray(text, bands) == -1) {
+                    bands.push(text);
+                }
+            }).get();
+
+            ///search this table
+            $(' #search ').click(function () {
+                var parts = $(' #emp_search ').val().split(/\s+/);
+
+                var bns = [],
+                    i = 0,
+                    idx;
+                while (i < parts.length) {
+                    idx = $.inArray(parts[i].toLowerCase(), bands);
+                    if (idx >= 0) {
+                        bns.push(parts.splice(i, 1)[0]);
+                    } else {
+                        i++;
+                    }
+                }
+
+                var nameexp = parts.length ? new RegExp(parts.join('|'), 'im') : false;
+                var bnexp = bns.length ? new RegExp(bns.join('|'), 'im') : false;
+
+                $("#books").find("tr").slice(1).each(function (index) {
+                    var $this = $(this);
+                    var name = $.trim($this.children().not(':nth-child(11)').text());
+                    var band = $.trim($this.children(':nth-child(11)').text());
+                    $(this).toggle((!nameexp || nameexp.test(name)) && (!bnexp || bnexp.test(band)));
+                });
+            });
+
+            //PRESS ENTER TO SEARCH
+            $(document).ready(function(){
+                $('#emp_search').keypress(function(e){
+                    if(e.keyCode==13)
+                        $('#search').click();
+                });
+            });
+
+
+
+
+
+
+
+            //CLICK ROW TO LINK
+            /*  
   $(' #books td:nth-child(4) ').click( function() {
-    
+
       window.location.href = "http://www.google.com";
-    
+
   });
-           
+
        */ 
-        
-  
- 
-        
-        
-    /*TO KEEP HEADER FIXED*/    
-  
-      
-    
-    </script>   
- 
-        
+
+
+
+
+
+            /*TO KEEP HEADER FIXED*/    
+
+
+
+        </script>   
+
+
     </body>
 
 </html>
