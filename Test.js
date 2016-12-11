@@ -1,11 +1,24 @@
+
+var textfield;
+
+
 function setup(){
     noCanvas();
-    createInput();
+   textfield = createInput();
     
+    
+ //  textfield.changed(newText); 
+    textfield.input(newTyping);
 }
 
-function draw(){
+function newText() {
+   // createP(textfield.value());
     
+  //  console.log(textfield.value());
+}
+
+function newTyping() {
+    createP(textfield.value());
     
-    
+  //  console.log(textfield.value());
 }
