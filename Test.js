@@ -20,5 +20,6 @@ function newText() {
 function newTyping() {
     createP(textfield.value());
     
-  //  console.log(textfield.value());
+  //  console.log(textfield
+    .value());
 }
