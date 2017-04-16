@@ -79,4 +79,6 @@ function searchTable() {
     }
     //Keep the header always on
     tr[0].style.display = "";
+   
 }
+
