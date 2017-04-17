@@ -1,4 +1,5 @@
 /*@import url("Main.css");*/
+
 html,
 body {
     width: 100%;
@@ -51,36 +52,66 @@ body {
 
 #header {
     background-color: #1b1e24;
-    height: 200px;
+    background-image: url(/images/header_bg.jpg);
+    height: 20%;
+    max-height: 200px;
+}
+
+#phsheader {
+   
+    width: 685px;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    top: -5px;
+    left: 20px;
+    z-index: 9;
+    
 }
 
 #header h1 {
-    padding-top: 50px;
+    position: absolute;
+    color: #3d3f40;
+    font-family: 'Garamond', Times, serif;
     text-align: center;
-    color: white;
+    white-space:nowrap;
+    overflow: hidden;
+    left: 170px;
+    top: 116px;
+    z-index: 10;
+    color: darkslategrey;
     margin: 0 auto;
 }
 
 #header h2 {
-    color: white;
+    color: #3d3f40;
+    font-family: 'Garamond', Times, serif;
+    position: absolute;
+    white-space:nowrap;
     text-align: center;
+    left: 170px;
+    top: 132px;
+    z-index: 11;
 }
 
+
 /* SEARCH BAR */
+
 #searchbar {
     pointer-events: inherit;
     background-color: #1b1e24;
     width: 100%;
-    overflow: auto;
+    height: 5%;
+    overflow: hidden;
 }
 
 #emp_search {
-    position: absolute;
-    width: 90%;
-    height: 20px;
-    padding: 10px 5px;
-    overflow: hidden;
-    float: left;
+    width: 100%;
+    
+    height: 100%;
+    min-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
     font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
     border: 0px;
     background: #EEE;
@@ -100,9 +131,10 @@ body {
 
 #search {
     float: right;
-    border: 0px;
+    border: none;
     cursor: pointer;
-    height: 40px;
+    height: 100%;
+    padding: 0;
     width: 10%;
     font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
     color: white;
@@ -120,9 +152,17 @@ body {
 
 #main {
     max-width: 1600px;
-    height: 80%;
-    overflow: auto;
+    height: 75%;
+    overflow: scroll;
     margin: 0 auto;
+}
+
+#books {
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
 }
 
 #books thead {
@@ -132,23 +172,15 @@ body {
     border-right: 1px solid #343a45;
     font-size: 23px;
     font-weight: 100;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     vertical-align: middle;
 }
 
-#books {
-    width: 100%;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow-y: scroll;
-}
-
 #books tbody {
     text-align: center;
-    padding: 50px;
+    /*    padding: 25px;*/
     background: white;
     border-top: 10px solid #C1C3D1;
     border-bottom: 1px solid #C1C3D1;
@@ -160,8 +192,8 @@ body {
 }
 
 #books td {
-    width: 10px;
-    height: 70px;
+    /*    width: 10px;*/
+    /*    height: 70px;*/
 }
 
 tr:nth-child(even) {
@@ -174,6 +206,6 @@ tr:hover td {
 }
 
 #books td:nth-child(4) {
-    color: mediumblue;
+    color: midnightblue;
     cursor: pointer;
 }
