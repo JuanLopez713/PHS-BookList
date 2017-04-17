@@ -1,67 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <link rel="stylesheet" href="HomepageStyle.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<head>
+    <link rel="stylesheet" href="HomepageStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/libraries/PapaParse/papaparse.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8"> </head>
 
-        <script src="/libraries/PapaParse/papaparse.js"></script>
-        <meta charset="UTF-8">
-        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
-    </head>
-
-    <body>
-
-
-        <div id="header">
-
-            <h1>Providence High School Book List Search</h1>
-            <h2>YOU BELONG HERE.</h2></div>
-
-        <div id="searchbar">
-            <input id="emp_search" placeholder="Type Your Search..." required="" onkeyup="searchTable()">
-            <input id="search" type="button" value="Search" />
-
-        </div>
-
-
-
-        <div id="main">
-
-                <table id="books" cellpadding="20" cellspacing="0" border="1">
-                    <thead>
-                        <tr>
-
-                            <th>Course</th>
-                            <th>Department</th>
-                            <th>Title</th>
-                            <th>ISBN</th>
-                            <th>Author</th>
-                            <th>Edition</th>
-                            <th>Publisher</th>
-                            <th>Grade</th>
-                            <th>Course Code</th>
-                            <th>Notes</th>
-                        </tr>
-                    </thead>
-
-
-                    <tbody>
-                        <!-- THIS IS THE BODY OF THE TABLE-->
-
-                    </tbody>
-                </table>
-
-          
-
-        </div>
-
-
-
-
-        <script src="tablemaker.js"> </script>
-
-
-    </body>
+<body>
+    <div id="header">
+        <h1>Providence High School Book List Search</h1>
+        <h2>YOU BELONG HERE.</h2></div>
+    <div id="searchbar">
+        <input id="emp_search" placeholder="Type Your Search..." required="" onkeyup="searchTable()">
+        <input id="search" type="button" value="Search" /> </div>
+    <div id="main">
+        <table id="books" cellpadding="20" cellspacing="0" border="1">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Department</th>
+                    <th>Title</th>
+                    <th>ISBN</th>
+                    <th>Author</th>
+                    <th>Edition</th>
+                    <th>Publisher</th>
+                    <th>Grade</th>
+                    <th>Course Code</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- THIS IS THE BODY OF THE TABLE-->
+            </tbody>
+        </table>
+    </div>
+    <script src="tablemaker.js"> </script>
+</body>
 
 </html>
