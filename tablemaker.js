@@ -52,8 +52,9 @@ function searchTable() {
     table = document.getElementById("books");
     tr = table.getElementsByTagName("tr");
     for (i = 0; i < tr.length; i++) {
+        found = false;
         for (x = 0; x < 9; x++) {
-            found = false;
+            
             td = tr[i].getElementsByTagName("td")[x];
             if (td) {
                 for (y = 0; y < terms.length; y++) {
