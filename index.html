@@ -9,7 +9,8 @@
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8"> 
     <META HTTP-EQUIV="Pragma" CONTENT="no-cache"></META>
     <META HTTP-EQUIV="Expires" CONTENT="-1"></META>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/2.3.0/jspdf.plugin.autotable.js"></script>
     </head>
 
     
@@ -18,9 +19,13 @@
     <div id="mainbody">
         <div id="header"> <img src="/images/header.png" id="phsheader" alt="PHSheader">
             <h1>BOOK LIST SEARCH</h1>
-            <h2>YOU BELONG HERE.</h2> </div>
+            <h2>YOU BELONG HERE.</h2> 
+        <button id="printbutt">Download My Book List</button>
+        
+        </div>
+        
         <div id="searchbar">
-            <input id="emp_search" placeholder="Type Your Search or Course Codes Here (Ex: APLIT ALGEB1 ADRAM...)" required="" onkeyup="searchTable()">
+            <input id="emp_search" placeholder="Type Your Search or Course Codes Here (Ex: APLIT ALGE1 ADRAM...)" required="" onkeyup="searchTable()">
             <!--            <input id="search" type="button" value="Search" />-->
         </div>
         <div id="main">
@@ -45,9 +50,8 @@
             </table>
         </div>
     </div>
+    <script src="tablemaker.js"></script>
     
-    <script src="tablemaker.js">
-    </script>
 </body>
     
     <HEAD>

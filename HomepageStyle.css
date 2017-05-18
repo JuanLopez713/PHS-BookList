@@ -209,3 +209,54 @@ tr:hover td {
     color: midnightblue;
     cursor: pointer;
 }
+
+#printbutt {
+    float:right;
+    display:inline-block;
+    position:absolute;
+    right: 50px;
+    top: 20px;
+	-moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+	-webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background-color:#ff1100;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #d02718;
+	
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+#printbutt:hover {
+	background-color:#ff1100;
+}
+#printbutt:active {
+	position:absolute;
+	right: 50px;
+    top: 21px;
+}
+
+@media print {  
+  @page {
+    size: 297mm 210mm; /* landscape */
+    /* you can also specify margins here: */
+    margin: 25mm;
+    margin-right: 45mm; /* for compatibility with both A4 and Letter */
+  }
+    #printbutt{
+        display:none;
+    }
+    #main {width: 100%;}
+}
+
+
+
+
+
+
