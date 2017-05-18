@@ -64,6 +64,7 @@ function searchTable() {
         tr[0].style.display = "";
        
     }
+    
 }
  var doc = new jsPDF('landscape');
 
@@ -84,12 +85,13 @@ $('#printbutt').click(function () {
     
 
 var rowsd=[];
-    if(!tr){
+    
+    var input = document.getElementById("emp_search");
+    filter = input.value;
+    
+    if(!filter){
         alert("Please Type your Course Codes into the Search Bar");
     }else{
-    
-     console.log(tr[0].style.display);
-    
     
     for (var i=1; i<tr.length; i++){
         
