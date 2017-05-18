@@ -1,5 +1,9 @@
 //PARSE THE CRV
 
+(function(){
+    alert("Make note of the course codes for future searches.");
+})();
+
 $(function () {
     var results = Papa.parse("BookList2017.csv", {
         header: true,
