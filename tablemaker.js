@@ -1,7 +1,7 @@
 //PARSE THE CRV
 
 $(function () {
-    var results = Papa.parse("BookList2016.csv", {
+    var results = Papa.parse("BookList2017.csv", {
         header: true,
         download: true,
         complete: function (results) {
