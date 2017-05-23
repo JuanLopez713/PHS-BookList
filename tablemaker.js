@@ -115,7 +115,7 @@ $('#printbutt').click(function () {
                 , columnWidth: 27
             }
             , drawCell: function (cell, opts) {
-                if (opts.column.dataKey === 5) {
+                if (opts.column.dataKey === 3) {
                     links.push({
                         x: cell.textPos.x+10
                         , y: cell.textPos.y
@@ -126,7 +126,7 @@ $('#printbutt').click(function () {
                 for (var i = 0; i < links.length; i++) {
                     var isbn = rowsd[i][3];
                     delete rowsd[i][3];
-                    doc.textWithLink('', links[i].x, links[i].y+10, {
+                    doc.textWithLink('Buy Here', links[i].x, links[i].y+10, {
                         url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn
                     });
                     
