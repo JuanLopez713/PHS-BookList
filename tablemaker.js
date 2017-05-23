@@ -8,7 +8,7 @@ $(function () {
         header: true
         , download: true
         , complete: function (results) {
-            console.log("Remote file parsed!", results.data);
+            //console.log("Remote file parsed!", results.data);
             $.each(results.data, function (i, el) {
                 var row = $("<tr/>");
                 row.append($("<td/>").text());
@@ -44,15 +44,19 @@ function searchTable() {
     terms = filter.split(" ");
     table = document.getElementById("books");
     tr = table.getElementsByTagName("tr");
+    //console.log("CURRENT SEARCH TERMS: " + terms);
     for (i = 0; i < tr.length; i++) {
         found = false;
         for (x = 0; x < 9; x++) {
             td = tr[i].getElementsByTagName("td")[8];
             if (td) {
                 for (y = 0; y < terms.length; y++) {
+                    if(terms[y]){
                     if (td.innerHTML.toUpperCase().indexOf(terms[y]) > -1) {
                         found = true;
                     }
+                    }
+                    else{}
                 }
             }
         }
@@ -87,7 +91,7 @@ $('#printbutt').click(function () {
     var input = document.getElementById("emp_search");
     filter = input.value;
     if (!filter) {
-        alert("Please Type your Course Codes into the Search Bar");
+        alert("Please Type your Course IDs into the Search Bar");
     }
     else {
         for (var i = 1; i < tr.length; i++) {
