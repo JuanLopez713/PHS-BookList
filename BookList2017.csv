@@ -1,128 +1,128 @@
-"Grade","Department","Course","ISBN","Author","Title","Publisher","Edition","Course ID","Notes"
-"Junior","English","American Literature","9780345807298","Dave Eggers","The Circle","","","10830","SUMMER READING, NO EBOOKS ALLOWED"
-"Junior","English","American Literature","9780743273565","F. Scott Fitzgerald","The Great Gatsby","","","10830","NO EBOOKS ALLOWED"
-"Junior","English","American Literature","9781503293182","Kate Chopin","The Awakening","","","10830","NO EBOOKS ALLOWED"
-"Junior","English","American Literature","9780486280615","Mark Twain","Huckleberry Finn","","","10830","NO EBOOKS ALLOWED"
-"Junior","English","AP English Language & Composition","307387895","Cormac McCarthy","The Road","","","10832","SUMMER READING, NO EBOOKS ALLOWED"
-"Junior","English","AP English Language & Composition","316017930","Malcolm Gladwell","Outliers","","","10832","SUMMER READING, NO EBOOKS ALLOWED"
-"Junior","English","AP English Language & Composition","042527618X","Mark Forsyth","Eloquence","","","10832","NO EBOOKS ALLOWED"
-"Junior","English","AP English Language & Composition","743273567","F. Scott Fitzgerald","The Great Gatsby","","","10832","NO EBOOKS ALLOWED"
-"Junior","English","AP English Language & Composition","1512090565","Nathaniel Hawthorne","The Scarlet Letter","","","10832","NO EBOOKS ALLOWED"
-"Junior","English","AP English Language & Composition","9780062301673","Thomas C. Foster","How to Read Literature Like a Professor","","","10832","NO EBOOKS ALLOWED"
-"Junior Senior","English","AP English Literature & Composition","9780062301673","Thomas C. Foster","How to Read Literature Like a Professor","","","10842","NO EBOOKS ALLOWED"
-"Senior","English","AP English Literature & Composition","486282112","Mary Shelley","Frankenstein","","","10842","SUMMER READING, NO EBOOKS ALLOWED"
-"Senior","English","AP English Literature & Composition","9780060883287","Gabriel Garcia Marquez","100 Years of Solitude","","","10842","SUMMER READING, NO EBOOKS ALLOWED"
-"Senior","English","AP English Literature & Composition","141439793","Jane Austen","Northanger Abbey","","","10842","NO EBOOKS ALLOWED"
-"Senior","English","AP English Literature & Composition","393932346","Lewis Carroll","Alice in Wonderland","","","10842","NO EBOOKS ALLOWED"
-"Senior","English","AP English Literature & Composition","486278077","Oscar Wilde","The Picture of Dorian Gray","","","10842","NO EBOOKS ALLOWED"
-"Senior","English","AP English Literature & Composition","074347712X","William Shakespeare","Hamlet","","","10842","NO EBOOKS ALLOWED"
-"Senior","English","AP English Literature & Composition","743477103","William Shakespeare","Macbeth","","","10842","NO EBOOKS ALLOWED"
-"Senior","English","British Literature","9780060850524","Aldous Huxley","Brave New World","","","10840","SUMMER READING, NO EBOOKS ALLOWED"
-"Senior","English","British Literature","743477103","William Shakespeare","Macbeth","","","10840","NO EBOOKS ALLOWED"
-"Senior","English","British Literature","486278077","Oscar Wilde","The Picture of Dorian Gray","","","10840","NO EBOOKS ALLOWED"
-"Sophomore","English","English II: World Literature","679750533","Haruki Murakami","The Elephant Vanishes: Stories","","","10820","SUMMER READING, NO EBOOKS ALLOWED"
-"Sophomore","English","English II: World Literature","399501487","William Golding","Lord of the Flies","","","10820","NO EBOOKS ALLOWED"
-"Sophomore","English","English II: World Literature","743482832","William Shakespeare","The Tempest","","","10820","NO EBOOKS ALLOWED"
-"Sophomore","English","English II: World Literature","618485228","Jhumpa Lahiri","The Namesake","","","10820","NO EBOOKS ALLOWED"
-"Sophomore","English","Honors English II: World Literature","679750533","Haruki Murakami","The Elephant Vanishes: Stories","","","10822","SUMMER READING, NO EBOOKS ALLOWED"
-"Sophomore","English","Honors English II: World Literature","015602764X","Sophocles","The Oedipus Cycle","","Trans: FitzGerald and Fitts","10822","NO EBOOKS ALLOWED"
-"Sophomore","English","Honors English II: World Literature","385474547","Chinua Achebe","Things Fall Apart","","","10822","NO EBOOKS ALLOWED"
-"Sophomore","English","Honors English II: World Literature","62301675","Thomas C. Foster","How to Read Literature Like a Professor","","","10822","NO EBOOKS ALLOWED"
-"Sophomore","English","Honors English II: World Literature","399501487","William Golding","Lord of the Flies","","","10822","NO EBOOKS ALLOWED"
-"Sophomore","English","Honors English II: World Literature","743482832","William Shakespeare","The Tempest","","","10822","NO EBOOKS ALLOWED"
-"Freshman","English ","English I ","345391802","Douglas Adams","The Hitchhiker's Guide to the Galaxy","","","10810","SUMMER READING, NO EBOOKS ALLOWED"
-"Freshman","English ","English I ","1586638483","William Shakespeare","A Midsummer Night's Dream","","No Fear Shakespeare","10810","NO EBOOKS ALLOWED"
-"Freshman","English ","English I ","140177396","John Steinbeck","Of Mice and Men","","","10810","NO EBOOKS ALLOWED"
-"Freshman","English ","English I ","1451673310","Ray Bradbury","Fahrenheit 451","","","10810","NO EBOOKS ALLOWED"
-"Freshman","English ","Honors English I","345391802","Douglas Adams","The Hitchhiker's Guide to the Galaxy","","","10812","SUMMER READING, NO EBOOKS ALLOWED"
-"Freshman","English ","Honors English I","142001740","Sue Monk Kidd","The Secret Life of Bees","","","10812","NO EBOOKS ALLOWED"
-"Freshman","English ","Honors English I","1586638483","William Shakespeare","A Midsummer Night's Dream","","No Fear Shakespeare","10812","NO EBOOKS ALLOWED"
-"Freshman","English ","Honors English I","140177396","John Steinbeck","Of Mice and Men","","","10812","NO EBOOKS ALLOWED"
-"Freshman ","Mathematics","Algebra I","9780395977224","Richard Brown, William Cole, Mary Dolciani, Robert Sorgenfrey","Algebra: Structure and Method - Book 1","MacDougal Litell","","10510",""
-"Freshman ","Mathematics","Honors Algebra I","9780395977224","Richard Brown, William Cole, Mary Dolciani, Robert Sorgenfrey","Algebra: Structure and Method - Book 1","MacDougal Litell","","10512",""
-"Freshman Sophomore","Mathematics","Geometry","9780395977279","Richard Brown, John W. Jurgensen, Ray C. Jurgensen","Geometry","MacDougal Litell","","10520",""
-"Freshman Sophomore","Mathematics","Honors Geometry","9780395977279","Richard Brown, John W. Jurgensen, Ray C. Jurgensen","Geometry","MacDougal Litell","","10522",""
-"Junior Senior","Mathematics","Calculus ","9780130631312","Franklin Demana, Ross Finney, Daniel Kennedy, Bert K. Waits","Calculus: Graphical, Numerical, Algebraic","Prentice Hall ","","10554",""
-"Junior Senior","Mathematics","Financial Algebra","9781285444857","Robert Gerver, Richard J. Sgroi","Advanced Algebra with Financial Applications","Cengage Learning","","10533",""
-"Junior Senior","Mathematics","Pre-Calculus","9780495392767","Lothar Redlin, James Stewart, Saleem Watson","Precalculus (Fifth Edition)","Cole, Thomas Brooks","","10540",""
-"Sophomore Junior","Mathematics","Algebra II","9780395977255","Richard Brown, Mary Dolciani, Robert Kane, Robert Sorgenfrey","Algebra and Trigonometry: Structure and Method - Book 2","MacDougal Litell","","10530",""
-"Sophomore Junior","Mathematics","Honors Algebra II / Trigonometry","9780395977255","Richard Brown, Mary Dolciani, Robert Kane, Robert Sorgenfrey","Algebra and Trigonometry: Structure and Method - Book 2    ","MacDougal Litell","","10532",""
-"Freshman Sophomore Junior","Performing Arts ","Classical Acting","9780415496728","Lenard Petit","The Michael Chekhov Handbook for the Actor","Routledge","","10791",""
-"Freshman Sophomore Junior","Performing Arts ","Drama / Theatre","9780394744124","Melissa Bruder","A Practical Handbook for the Actor","Vintage"," 1st","10794","EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
-"Freshman","Physical Education","Physical Education ","","","","","","10910 10920","Uniform is provided by the school, billed through finance.  Athletic shoes are required to be worn in class. Street and skate shoes are not allowed.  The sole of the shoe should be hard and should not bend/fold.  No textbook is required."
-"Freshman","Religious Studies","Christian Formation","9781847305022","","God's Word Revealed in Sacred Scripture","Veritas","2013","10210","EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
-"Freshman","Religious Studies","The Mystery of Jesus Christ","9781847305039","","Son of God & Son of Mary","Veritas","2013","10215","EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
-"Junior","Religious Studies","Celebrating Sacraments","9781599820910","","Encountering Christ in the Sacraments","Veritas","2015","10230","EBOOKS ENCOURAGED"
-"Junior","Religious Studies","Christian Social Justice","9781847305480","","Living as a Disciple of Jesus in Society","Veritas","2015","10235","EBOOKS ENCOURAGED"
-"Senior","Religious Studies","Christian Lifestyles","9781847305510","","Responding to the Call of Jesus Christ","Veritas","2015","10255","Paperback needs to be purchased by student(This is NOT a textbook)"
-"Senior","Religious Studies","World Religions","9781599823294","","World Religions","St. Mary's Press","2012","10250","EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
-"Sophomore","Religious Studies","Mission of Jesus Christ","9781847305350","","The Promised One: Servant & Savior ","Veritas","2014","10220","EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
-"Sophomore","Religious Studies","Mission of the Church","9781847305367","","The Body of Christ: The Church","Veritas","2014","10225","EBOOKS ENCOURAGED"
-"Freshman","Science","Biology","9780078945861","Alton Biggs","Biology","Mc Graw Hill/ Glencoe Science","2012","10620","NO EBOOKS ALLOWED"
-"Freshman","Science","Honors Biology","9780321729712","Gerald Audesirk, Teresa Audesirk, Bruce Byers","Biology: Life on Earth","Pearson","Tenth","10622","EBOOK OR TEXTBOOK ALLOWED"
-"Junior Senior","Science","Anatomy & Physiology","978032310123","Kevin Patton/Gary A. Thibodeau","The Human Body in Health & Disease ","Elsevier","6th","10660"," TEXTBOOK REQUIRED,""Student Resource"" OPTIONAL"
-"Junior Senior","Science","Anatomy & Physiology","9780321832016","Lawrence Elson, Wynn Kapit","The Anatomy Coloring Book","Pearson","4th","10660","PAPERBACK TO ACCOMPANY TEXTBOOK, 384-pages"
-"Junior Senior","Science","AP Biology","9780321813800","Michael Cain, Robert Jackson, Peter Minorsky, Jane Reece, Lisa Urry","Biology in Focus","Campbell/Pearson","1st","10650","See Instructor for Digital Code Before June 1st"
-"Junior Senior","Science","AP Chemistry","9780321741059","Theodore Brown, H. Eugene H. LeMay","Chemistry: The Central Science","Prentice Hall","Twelfth","10633","Please See Instructor Before Purchasing"
-"Junior Senior","Science","AP Physics 1","9780130606204","Douglas C. Giancoli","Physics: Principles with Applications","Prentice-Hall","2005/ 6th Ed","10645","NO EBOOKS ALLOWED"
-"Junior Senior","Science","Environmental Science","9780547904016","Heithaus and Arms","Environmental Science","Holt McDougal","2013","10670","NO EBOOKS ALLOWED"
-"Junior Senior","Science","Honors Physics","9780030505973","Jerry Faughn, Raymond Serway","Holt Physics","Holt, Rinehart, Winston","1999","10640","NO EBOOKS ALLOWED"
-"Junior Senior","Science","Kinesiology","9781259450051","Wm. E. Prentice","Principles of Athletic Training","McGraw-Hill","15th","10665","TEXBOOK REQUIRED,""Online Student Mastering"" OPTIONAL"
-"Junior Senior","Science","Nutrition Science","9781771641494","Giulia Enders","Gut: The Inside Story of Our Body's Most Underrated Organ","Greystone","2015","10655","NO EBOOKS ALLOWED"
-"Junior Senior","Science","Physics","9780030505973","Jerry Faughn, Raymond Serway","Holt Physics","Holt, Rinehart, Winston","1999","10642","NO EBOOKS ALLOWED"
-"Sophomore","Science","Chemistry","9781292039534","William Timberlake & Karen C. Timberlake","Basic Chemistry","Pearson","Fourth","10630","EBOOK OR TEXTBOOK, NO INTERNATIONAL EDITION"
-"Sophomore","Science","Health Care 2 - Honors Chemistry","9781292039534","William Timberlake & Karen C. Timberlake","Basic Chemistry","Pearson","Fourth","10638","EBOOK OR TEXTBOOK, NO INTERNATIONAL EDITION"
-"Sophomore","Science","Honors Chemistry","9781292039534","William Timberlake & Karen C. Timberlake","Basic Chemistry","Pearson","Fourth","10632","EBOOK OR TEXTBOOK, NO INTERNATIONAL EDITION"
-"Sophomore Junior Senior","Science","Marine Biology","","","","","","10629","NO BOOK REQUIRED"
-"Sophomore Junior Senior","Science","Zoology","","","","","","10623","NO BOOK REQUIRED"
-"Freshman","Science ","Health Care 1 - Honors Biology","9780321729712","Gerald Audesirk, Teresa Audesirk, Bruce Byers","Biology: Life on Earth","Pearson","Tenth","10621","EBOOK OR TEXTBOOK ALLOWED"
-"Junior","Social Studies","AP US History","9781111831066","Lizabeth Cohen, David M. Kennedy","American Pagent: A History of the American People","Wadsworth","15th","10332",""
-"Junior","Social Studies","US History","9780131335103","Andrew Clayton, Elisabeth Perry, Linda Reed, Allan M. Winkler","America - Pathways to the Present: Modern American History","Pearson","2007","10330",""
-"Junior Senior","Social Studies","AP Psychology","9781429244367","David G. Myers","Myers' Psychology for AP","Worth","1st","10392",""
-"Junior Senior","Social Studies","Child Development","9780205256020","Helen Bee, Denise Boyd","The Developing Child ","Pearson","13th","10399",""
-"Junior Senior","Social Studies","Psychology","9781464102417","Sandra E. Hockenbury","Discovering Psychology","Worth","6th","10390",""
-"Senior","Social Studies","AP Macroeconomics","9780077660772","Campbell McConnell, Stanley Brue, Sean Flynn","Macroeconomics","McGraw-Hill","20th","10341","TEXTBOOK OPTIONAL, NOT REQUIRED"
-"Senior","Social Studies","AP US Government and Politics","9781305081215","James Wilson, John J. Dilullio, Meena Bose","American Government: Institutions and Policies","Wadsworth","14th","10353",""
-"Senior","Social Studies","Basic Law","9780078600197","Lee P. Arbetman, Edward O'Brien","Street Law: A Course in Practical Law","McGraw-Hill","7th","10360",""
-"Senior","Social Studies","Criminal Justice in America","9781886253469","Constitutional Rights Foundation","Criminal Justice in America","Constitutional Rights Foundation","","10365",""
-"Senior","Social Studies","Economics","9780078799976","Gary E. Clayton","Economics: Principles and Practices","Glencoe","","10340",""
-"Senior","Social Studies","US Government","9780133306996","Magruder","Magruders American Government ","Pearson","2016 Student Edition","10350",""
-"Sophomore","Social Studies","AP World History","9780312487058","Robert W. Strayer","Ways of the World","Bedford, St. Martin","2nd","10333",""
-"Sophomore","Social Studies","World History","9780131299733","Elisabeth Ellis, Anthony Esler","World History: The Modern Era","Prentice Hall","7th","10320",""
-"Freshman","Technology Focus","Game Programming I","9781590596159","Hapgood, Overmars, Wilson","The Gamemaker's Apprentice","Apress","2007","10131","OPTIONAL, NOT REQUIRED"
-"Freshman","Technology Focus","Game Programming II","9781430228264","Hapgood, Neilson","The Gamemaker's Companion","Apress","2010","10145","NO BOOK REQUIRED"
-"Junior","Technology Focus","AP Computer Science Principles","9781305387751","Parsons","Computer Concepts 2016 - New Perspectives","Cengage","2016","10192","NO BOOK REQUIRED"
-"Junior","Technology Focus","Exploring Computer Science","","","","","","10101","NO BOOK REQUIRED"
-"Senior","Technology Focus","Marketing Foundations","","","","","","10121","NO BOOK REQUIRED"
-"Senior","Technology Focus","Technology Integration","","","","","","10195","NO BOOK REQUIRED"
-"Sophomore","Technology Focus","Robotics I","","","","","","10171","NO BOOK REQUIRED"
-"Sophomore","Technology Focus","Robotics II","","","","","","10181","NO BOOK REQUIRED"
-"Freshman","World Languages","French I","9780547871561","Valette-Valette","Discovering French Today!  Level 1:  Student Edition","Houghton Mifflin Harcourt","2013","10410",""
-"Freshman","World Languages","French I","9780547871776","Valette-Valette","Discovering French Today!  Level 1:  Activités Pour Tous Workbook","Houghton Mifflin Harcourt","2013","10410",""
-"Freshman","World Languages","French I","9780544107052","Valette-Valette","Discovering French Today! Level 1: Workbook","Houghton Mifflin Harcourt","","10410",""
-"Freshman Sophomore","World Languages","Latin I","9780205078592","Charles Jenney","First Year Latin","Allyn and Bacon","1987","10490","SAME AS LATIN I"
-"Freshman Sophomore Junior","World Languages","Spanish I","9781680043198","José A Blanco","Descubre 1","Vista Higher Learning","2017","10450","MUST PURCHASE A NEW E-CODE FROM:"
-"Freshman Sophomore Junior Senior","World Languages","Honors Spanish II","9781680043228","José A Blanco","Descubre 2","Vista Higher Learning","2017","10462","MUST PURCHASE A NEW E-CODE FROM:"
-"Freshman Sophomore Junior Senior","World Languages","Spanish II","9781680043228","José A Blanco","Descubre 2","Vista Higher Learning","2017","10460","MUST PURCHASE A NEW E-CODE FROM:"
-"Junior","World Languages","Honors French III","9780547872476","Valette-Valette","Discovering French Today! Level 3: Student Edition","Houghton Mifflin Harcourt","2013","10430",""
-"Junior","World Languages","Honors French III","9780547871806","Valette-Valette","Discovering French Today! Level 3: Activités Pour Tous Workbook","Houghton Mifflin Harcourt","2013","10430",""
-"Junior","World Languages","Honors French III","9780547914404","Valette-Valette","Discovering French Today! Level 3: Workbook","Houghton Mifflin Harcourt","2013","10430",""
-"Junior","World Languages","Mandarin III, Honors Mandarin III","9789620434679","Yamin Ma, Xinying Li","Chinese Made Easy 3rd Ed (Simplified) Workbook Level 3 (English and Chinese Edition)","Joint Publishing (H.K.) Co. Ltd","2015","10459",""
-"Junior ","World Languages","Mandarin III, Honors Mandarin III","9789620434600","Yamin Ma, Xinying Li","Chinese Made Easy 3rd Ed (Simplified) Textbook Level 3 (English and Chinese Edition)","Joint Publishing (H.K.) Co. Ltd","2015","10459",""
-"Junior Senior","World Languages","AP Spanish","9781618572226","Cole Conlin, Parthena Draggett, Max Ehrsam","Temas ","Vista Higher Learning","2014","10480",""
-"Junior Senior","World Languages","Latin III","9780679729525","Virgil (Trans. by Robert Fitgerald)","The Aeneid","Vintage Classics","1990","10496",""
-"Junior Senior","World Languages","Latin III","9780865167643","Barbara Weiden-Boyd","Vergil's Aeneid: Selected Readings ","Bolchazy-Carducci","2012","10496",""
-"Junior Senior","World Languages","Latin III","9780984306572","Geoffrey Steadman","College Caesar","Geoffrey Steadman","2011","10496",""
-"Junior Senior","World Languages","Spanish IV","9781938026362","Megan Cory, Janet Parker, Catherine Schwenkler","Tejidos","Wayside Publishing","2013","10481",""
-"Senior","World Languages","Honors French IV","9780078606557","Yvone Lenard","Trésors du Temps: 5th Edition: Student Edition","Glencoe, McGraw-Hill","2004","10440",""
-"Senior","World Languages","Honors French IV","9780078606571","Yvone Lenard","Trésors du Temps: 5th Edition: Workbook","Glencoe, McGraw-Hill","2004","10440",""
-"Senior","World Languages","Honors French IV","9780395240052","Antoine de Saint-Exupéry","Le Petit Prince","Heinle, Cengage Learning","1970","10440",""
-"Senior","World Languages","Honors French IV","9780844213866","Anne Gassaway Brown"," la Découverte du Petit Prince (Workbook)","Glencoe, McGraw-Hill","1996","10440",""
-"Sophomore","World Languages","Honors French II","9780547871974","Valette-Valette","Discovering French Today! Level 2: Student Edition","Houghton Mifflin Harcourt","2013","10425",""
-"Sophomore","World Languages","Honors French II","9780547871974","Valette-Valette","Discovering French Today! Level 2: Activités Pour Tous Workbook","Houghton Mifflin Harcourt","2013","10425",""
-"Sophomore","World Languages","Honors French II","9780547914442","Valette-Valette","Discovering French Today! Level 2: Workbook","Houghton Mifflin Harcourt","2013","10425",""
-"Sophomore","World Languages","Mandarin II","9789620434594"," Yamin Ma (Author), Shang Xiaomeng (Editor), Arthur Wang (Illustrator)","Chinese Made Easy 3rd Ed (Simplified) Textbook Level 2 (English and Chinese Edition)","Joint Publishing (H.K.) Co. Ltd","2014","10458",""
-"Sophomore","World Languages","Mandarin II","9789620434662","Yamin Ma (Author), Shang Xiaomeng (Editor), Arthur Wang (Illustrator)","Chinese Made Easy 3rd Ed (Simplified) Workbook Level 2 (English and Chinese Edition)","Joint Publishing (H.K.) Co. Ltd","2014","10458",""
-"Sophomore Junior","World Languages","Latin II","9780205078592","Charles Jenney","First Year Latin","Allyn and Bacon","1987","10495",""
-"Sophomore Junior Senior","World Languages","Honors Spanish III","9781618572226","Cole Conlin, Parthena Draggett, Max Ehrsam","Temas ","Vista Higher Learning","2014","10462",""
-"Sophomore Junior Senior","World Languages","Spanish III","9781680043235","José A Blanco","Descubre 3","Vista Higher Learning","2017","10470",""
+Grade,Department,Course,ISBN,Author,Title,Publisher,Edition,Course ID,Notes
+Sophomore,English,English II: World Literature,679750533,Haruki Murakami,The Elephant Vanishes: Stories,,,10820,"SUMMER READING, NO EBOOKS ALLOWED"
+Sophomore,English,English II: World Literature,399501487,William Golding,Lord of the Flies,,,10820,NO EBOOKS ALLOWED
+Sophomore,English,English II: World Literature,743482832,William Shakespeare,The Tempest,,,10820,NO EBOOKS ALLOWED
+Sophomore,English,English II: World Literature,618485228,Jhumpa Lahiri,The Namesake,,,10820,NO EBOOKS ALLOWED
+Sophomore,English,Honors English II: World Literature,679750533,Haruki Murakami,The Elephant Vanishes: Stories,,,10822,"SUMMER READING, NO EBOOKS ALLOWED"
+Sophomore,English,Honors English II: World Literature,015602764X,Sophocles,The Oedipus Cycle,,Trans: FitzGerald and Fitts,10822,NO EBOOKS ALLOWED
+Sophomore,English,Honors English II: World Literature,385474547,Chinua Achebe,Things Fall Apart,,,10822,NO EBOOKS ALLOWED
+Sophomore,English,Honors English II: World Literature,62301675,Thomas C. Foster,How to Read Literature Like a Professor,,,10822,NO EBOOKS ALLOWED
+Sophomore,English,Honors English II: World Literature,399501487,William Golding,Lord of the Flies,,,10822,NO EBOOKS ALLOWED
+Sophomore,English,Honors English II: World Literature,743482832,William Shakespeare,The Tempest,,,10822,NO EBOOKS ALLOWED
+Junior,English,American Literature,9780345807298,Dave Eggers,The Circle,,,10830,"SUMMER READING, NO EBOOKS ALLOWED"
+Junior,English,American Literature,9780743273565,F. Scott Fitzgerald,The Great Gatsby,,,10830,NO EBOOKS ALLOWED
+Junior,English,American Literature,9781503293182,Kate Chopin,The Awakening,,,10830,NO EBOOKS ALLOWED
+Junior,English,American Literature,9780486280615,Mark Twain,Huckleberry Finn,,,10830,NO EBOOKS ALLOWED
+Junior,English,AP English Language & Composition,307387895,Cormac McCarthy,The Road,,,10832,"SUMMER READING, NO EBOOKS ALLOWED"
+Junior,English,AP English Language & Composition,316017930,Malcolm Gladwell,Outliers,,,10832,"SUMMER READING, NO EBOOKS ALLOWED"
+Junior,English,AP English Language & Composition,042527618X,Mark Forsyth,Eloquence,,,10832,NO EBOOKS ALLOWED
+Junior,English,AP English Language & Composition,743273567,F. Scott Fitzgerald,The Great Gatsby,,,10832,NO EBOOKS ALLOWED
+Junior,English,AP English Language & Composition,1512090565,Nathaniel Hawthorne,The Scarlet Letter,,,10832,NO EBOOKS ALLOWED
+Junior,English,AP English Language & Composition,9780062301673,Thomas C. Foster,How to Read Literature Like a Professor,,,10832,NO EBOOKS ALLOWED
+Senior,English,British Literature,9780060850524,Aldous Huxley,Brave New World,,,10840,"SUMMER READING, NO EBOOKS ALLOWED"
+Senior,English,British Literature,743477103,William Shakespeare,Macbeth,,,10840,NO EBOOKS ALLOWED
+Senior,English,British Literature,486278077,Oscar Wilde,The Picture of Dorian Gray,,,10840,NO EBOOKS ALLOWED
+Junior Senior,English,AP English Literature & Composition,9780062301673,Thomas C. Foster,How to Read Literature Like a Professor,,,10842,NO EBOOKS ALLOWED
+Senior,English,AP English Literature & Composition,486282112,Mary Shelley,Frankenstein,,,10842,"SUMMER READING, NO EBOOKS ALLOWED"
+Senior,English,AP English Literature & Composition,9780060883287,Gabriel Garcia Marquez,100 Years of Solitude,,,10842,"SUMMER READING, NO EBOOKS ALLOWED"
+Senior,English,AP English Literature & Composition,141439793,Jane Austen,Northanger Abbey,,,10842,NO EBOOKS ALLOWED
+Senior,English,AP English Literature & Composition,393932346,Lewis Carroll,Alice in Wonderland,,,10842,NO EBOOKS ALLOWED
+Senior,English,AP English Literature & Composition,486278077,Oscar Wilde,The Picture of Dorian Gray,,,10842,NO EBOOKS ALLOWED
+Senior,English,AP English Literature & Composition,074347712X,William Shakespeare,Hamlet,,,10842,NO EBOOKS ALLOWED
+Senior,English,AP English Literature & Composition,743477103,William Shakespeare,Macbeth,,,10842,NO EBOOKS ALLOWED
+Freshman,English ,English I ,345391802,Douglas Adams,The Hitchhiker's Guide to the Galaxy,,,10810,"SUMMER READING, NO EBOOKS ALLOWED"
+Freshman,English ,English I ,1586638483,William Shakespeare,A Midsummer Night's Dream,,No Fear Shakespeare,10810,NO EBOOKS ALLOWED
+Freshman,English ,English I ,140177396,John Steinbeck,Of Mice and Men,,,10810,NO EBOOKS ALLOWED
+Freshman,English ,English I ,1451673310,Ray Bradbury,Fahrenheit 451,,,10810,NO EBOOKS ALLOWED
+Freshman,English ,Honors English I,345391802,Douglas Adams,The Hitchhiker's Guide to the Galaxy,,,10812,"SUMMER READING, NO EBOOKS ALLOWED"
+Freshman,English ,Honors English I,142001740,Sue Monk Kidd,The Secret Life of Bees,,,10812,NO EBOOKS ALLOWED
+Freshman,English ,Honors English I,1586638483,William Shakespeare,A Midsummer Night's Dream,,No Fear Shakespeare,10812,NO EBOOKS ALLOWED
+Freshman,English ,Honors English I,140177396,John Steinbeck,Of Mice and Men,,,10812,NO EBOOKS ALLOWED
+Freshman ,Mathematics,Algebra I,9780395977224,"Richard Brown, William Cole, Mary Dolciani, Robert Sorgenfrey",Algebra: Structure and Method - Book 1,MacDougal Litell,,10510,
+Freshman ,Mathematics,Honors Algebra I,9780395977224,"Richard Brown, William Cole, Mary Dolciani, Robert Sorgenfrey",Algebra: Structure and Method - Book 1,MacDougal Litell,,10512,
+Freshman Sophomore,Mathematics,Geometry,9780395977279,"Richard Brown, John W. Jurgensen, Ray C. Jurgensen",Geometry,MacDougal Litell,,10520,
+Freshman Sophomore,Mathematics,Honors Geometry,9780395977279,"Richard Brown, John W. Jurgensen, Ray C. Jurgensen",Geometry,MacDougal Litell,,10522,
+Sophomore Junior,Mathematics,Algebra II,9780395977255,"Richard Brown, Mary Dolciani, Robert Kane, Robert Sorgenfrey",Algebra and Trigonometry: Structure and Method - Book 2,MacDougal Litell,,10530,
+Sophomore Junior,Mathematics,Honors Algebra II / Trigonometry,9780395977255,"Richard Brown, Mary Dolciani, Robert Kane, Robert Sorgenfrey",Algebra and Trigonometry: Structure and Method - Book 2,MacDougal Litell,,10532,
+Junior Senior,Mathematics,Financial Algebra,9781285444857,"Robert Gerver, Richard J. Sgroi",Advanced Algebra with Financial Applications,Cengage Learning,,10533,
+Junior Senior,Mathematics,Pre-Calculus,9780495392767,"Lothar Redlin, James Stewart, Saleem Watson",Precalculus (Fifth Edition),"Cole, Thomas Brooks",,10540,
+Junior Senior,Mathematics,Calculus ,9780130631312,"Franklin Demana, Ross Finney, Daniel Kennedy, Bert K. Waits","Calculus: Graphical, Numerical, Algebraic",Prentice Hall ,,10554,
+Freshman Sophomore Junior,Performing Arts ,Classical Acting,9780415496728,Lenard Petit,The Michael Chekhov Handbook for the Actor,Routledge,,10791,
+Freshman Sophomore Junior,Performing Arts ,Drama / Theatre,9780394744124,Melissa Bruder,A Practical Handbook for the Actor,Vintage,1st,10794,"EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
+Freshman,Physical Education,Physical Education ,,,,,,10910 10920,"Uniform is provided by the school, billed through finance.  Athletic shoes are required to be worn in class. Street and skate shoes are not allowed.  The sole of the shoe should be hard and should not bend/fold.  No textbook is required."
+Freshman,Religious Studies,Christian Formation,9781847305022,,God's Word Revealed in Sacred Scripture,Veritas,2013,10210,"EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
+Freshman,Religious Studies,The Mystery of Jesus Christ,9781847305039,,Son of God & Son of Mary,Veritas,2013,10215,"EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
+Sophomore,Religious Studies,Mission of Jesus Christ,9781847305350,,The Promised One: Servant & Savior ,Veritas,2014,10220,"EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
+Sophomore,Religious Studies,Mission of the Church,9781847305367,,The Body of Christ: The Church,Veritas,2014,10225,EBOOKS ENCOURAGED
+Junior,Religious Studies,Celebrating Sacraments,9781599820910,,Encountering Christ in the Sacraments,Veritas,2015,10230,EBOOKS ENCOURAGED
+Junior,Religious Studies,Christian Social Justice,9781847305480,,Living as a Disciple of Jesus in Society,Veritas,2015,10235,EBOOKS ENCOURAGED
+Senior,Religious Studies,World Religions,9781599823294,,World Religions,St. Mary's Press,2012,10250,"EBOOKS ENCOURAGED, TEXTBOOK AVAILABLE IN CLASS"
+Senior,Religious Studies,Christian Lifestyles,9781847305510,,Responding to the Call of Jesus Christ,Veritas,2015,10255,"Paperback needs to be purchased by student(This is NOT a textbook)"
+Freshman,Science,Biology,9780078945861,Alton Biggs,Biology,Mc Graw Hill/ Glencoe Science,2012,10620,NO EBOOKS ALLOWED
+Freshman,Science,Honors Biology,9780321729712,"Gerald Audesirk, Teresa Audesirk, Bruce Byers",Biology: Life on Earth,Pearson,Tenth,10622,EBOOK OR TEXTBOOK ALLOWED
+Sophomore Junior Senior,Science,Zoology,,,,,,10623,NO BOOK REQUIRED
+Sophomore Junior Senior,Science,Marine Biology,,,,,,10629,NO BOOK REQUIRED
+Sophomore,Science,Chemistry,9781292039534,William Timberlake & Karen C. Timberlake,Basic Chemistry,Pearson,Fourth,10630,"EBOOK OR TEXTBOOK, NO INTERNATIONAL EDITION"
+Sophomore,Science,Honors Chemistry,9781292039534,William Timberlake & Karen C. Timberlake,Basic Chemistry,Pearson,Fourth,10632,"EBOOK OR TEXTBOOK, NO INTERNATIONAL EDITION"
+Junior Senior,Science,AP Chemistry,9780321741059,"Theodore Brown, H. Eugene H. LeMay",Chemistry: The Central Science,Prentice Hall,Twelfth,10633,Please See Instructor Before Purchasing
+Sophomore,Science,Health Care 2 - Honors Chemistry,9781292039534,William Timberlake & Karen C. Timberlake,Basic Chemistry,Pearson,Fourth,10638,"EBOOK OR TEXTBOOK, NO INTERNATIONAL EDITION"
+Junior Senior,Science,Honors Physics,9780030505973,"Jerry Faughn, Raymond Serway",Holt Physics,"Holt, Rinehart, Winston",1999,10640,NO EBOOKS ALLOWED
+Junior Senior,Science,Physics,9780030505973,"Jerry Faughn, Raymond Serway",Holt Physics,"Holt, Rinehart, Winston",1999,10642,NO EBOOKS ALLOWED
+Junior Senior,Science,AP Physics 1,9780130606204,Douglas C. Giancoli,Physics: Principles with Applications,Prentice-Hall,2005/ 6th Ed,10645,NO EBOOKS ALLOWED
+Junior Senior,Science,AP Biology,9780321813800,"Michael Cain, Robert Jackson, Peter Minorsky, Jane Reece, Lisa Urry",Biology in Focus,Campbell/Pearson,1st,10650,See Instructor for Digital Code Before June 1st
+Junior Senior,Science,Nutrition Science,9781771641494,Giulia Enders,Gut: The Inside Story of Our Body's Most Underrated Organ,Greystone,2015,10655,NO EBOOKS ALLOWED
+Junior Senior,Science,Anatomy & Physiology,978032310123,Kevin Patton/Gary A. Thibodeau,The Human Body in Health & Disease ,Elsevier,6th,10660," TEXTBOOK REQUIRED,""Student Resource"" OPTIONAL"
+Junior Senior,Science,Anatomy & Physiology,9780321832016,"Lawrence Elson, Wynn Kapit",The Anatomy Coloring Book,Pearson,4th,10660,"PAPERBACK TO ACCOMPANY TEXTBOOK, 384-pages"
+Junior Senior,Science,Kinesiology,9781259450051,Wm. E. Prentice,Principles of Athletic Training,McGraw-Hill,15th,10665,"TEXBOOK REQUIRED,""Online Student Mastering"" OPTIONAL"
+Junior Senior,Science,Environmental Science,9780547904016,Heithaus and Arms,Environmental Science,Holt McDougal,2013,10670,NO EBOOKS ALLOWED
+Freshman,Science ,Health Care 1 - Honors Biology,9780321729712,"Gerald Audesirk, Teresa Audesirk, Bruce Byers",Biology: Life on Earth,Pearson,Tenth,10621,EBOOK OR TEXTBOOK ALLOWED
+Sophomore,Social Studies,World History,9780131299733,"Elisabeth Ellis, Anthony Esler",World History: The Modern Era,Prentice Hall,7th,10320,
+Junior,Social Studies,US History,9780131335103,"Andrew Clayton, Elisabeth Perry, Linda Reed, Allan M. Winkler",America - Pathways to the Present: Modern American History,Pearson,2007,10330,
+Junior,Social Studies,AP US History,9781111831066,"Lizabeth Cohen, David M. Kennedy",American Pagent: A History of the American People,Wadsworth,15th,10332,
+Sophomore,Social Studies,AP World History,9780312487058,Robert W. Strayer,Ways of the World,"Bedford, St. Martin",2nd,10333,
+Senior,Social Studies,Economics,9780078799976,Gary E. Clayton,Economics: Principles and Practices,Glencoe,,10340,
+Senior,Social Studies,AP Macroeconomics,9780077660772,"Campbell McConnell, Stanley Brue, Sean Flynn",Macroeconomics,McGraw-Hill,20th,10341,"TEXTBOOK OPTIONAL, NOT REQUIRED"
+Senior,Social Studies,US Government,9780133306996,Magruder,Magruders American Government ,Pearson,2016 Student Edition,10350,
+Senior,Social Studies,AP US Government and Politics,9781305081215,"James Wilson, John J. Dilullio, Meena Bose",American Government: Institutions and Policies,Wadsworth,14th,10353,
+Senior,Social Studies,Basic Law,9780078600197,"Lee P. Arbetman, Edward O'Brien",Street Law: A Course in Practical Law,McGraw-Hill,7th,10360,
+Senior,Social Studies,Criminal Justice in America,9781886253469,Constitutional Rights Foundation,Criminal Justice in America,Constitutional Rights Foundation,,10365,
+Junior Senior,Social Studies,Psychology,9781464102417,Sandra E. Hockenbury,Discovering Psychology,Worth,6th,10390,
+Junior Senior,Social Studies,AP Psychology,9781429244367,David G. Myers,Myers' Psychology for AP,Worth,1st,10392,
+Junior Senior,Social Studies,Child Development,9780205256020,"Helen Bee, Denise Boyd",The Developing Child ,Pearson,13th,10399,
+Junior,Technology Focus,Exploring Computer Science,,,,,,10101,NO BOOK REQUIRED
+Senior,Technology Focus,Marketing Foundations,,,,,,10121,NO BOOK REQUIRED
+Freshman,Technology Focus,Game Programming I,9781590596159,"Hapgood, Overmars, Wilson",The Gamemaker's Apprentice,Apress,2007,10131,"OPTIONAL, NOT REQUIRED"
+Freshman,Technology Focus,Game Programming II,9781430228264,"Hapgood, Neilson",The Gamemaker's Companion,Apress,2010,10145,NO BOOK REQUIRED
+Sophomore,Technology Focus,Robotics I,,,,,,10171,NO BOOK REQUIRED
+Sophomore,Technology Focus,Robotics II,,,,,,10181,NO BOOK REQUIRED
+Junior,Technology Focus,AP Computer Science Principles,9781305387751,Parsons,Computer Concepts 2016 - New Perspectives,Cengage,2016,10192,NO BOOK REQUIRED
+Senior,Technology Focus,Technology Integration,,,,,,10195,NO BOOK REQUIRED
+Freshman,World Languages,French I,9780547871561,Valette-Valette,Discovering French Today!  Level 1:  Student Edition,Houghton Mifflin Harcourt,2013,10410,
+Freshman,World Languages,French I,9780547871776,Valette-Valette,Discovering French Today!  Level 1:  Activités Pour Tous Workbook,Houghton Mifflin Harcourt,2013,10410,
+Freshman,World Languages,French I,9780544107052,Valette-Valette,Discovering French Today! Level 1: Workbook,Houghton Mifflin Harcourt,,10410,
+Sophomore,World Languages,Honors French II,9780547871974,Valette-Valette,Discovering French Today! Level 2: Student Edition,Houghton Mifflin Harcourt,2013,10425,
+Sophomore,World Languages,Honors French II,9780547871974,Valette-Valette,Discovering French Today! Level 2: Activités Pour Tous Workbook,Houghton Mifflin Harcourt,2013,10425,
+Sophomore,World Languages,Honors French II,9780547914442,Valette-Valette,Discovering French Today! Level 2: Workbook,Houghton Mifflin Harcourt,2013,10425,
+Junior,World Languages,Honors French III,9780547872476,Valette-Valette,Discovering French Today! Level 3: Student Edition,Houghton Mifflin Harcourt,2013,10430,
+Junior,World Languages,Honors French III,9780547871806,Valette-Valette,Discovering French Today! Level 3: Activités Pour Tous Workbook,Houghton Mifflin Harcourt,2013,10430,
+Junior,World Languages,Honors French III,9780547914404,Valette-Valette,Discovering French Today! Level 3: Workbook,Houghton Mifflin Harcourt,2013,10430,
+Senior,World Languages,Honors French IV,9780078606557,Yvone Lenard,Trésors du Temps: 5th Edition: Student Edition,"Glencoe, McGraw-Hill",2004,10440,
+Senior,World Languages,Honors French IV,9780078606571,Yvone Lenard,Trésors du Temps: 5th Edition: Workbook,"Glencoe, McGraw-Hill",2004,10440,
+Senior,World Languages,Honors French IV,9780395240052,Antoine de Saint-Exupéry,Le Petit Prince,"Heinle, Cengage Learning",1970,10440,
+Senior,World Languages,Honors French IV,9780844213866,Anne Gassaway Brown, la Découverte du Petit Prince (Workbook),"Glencoe, McGraw-Hill",1996,10440,
+Freshman Sophomore Junior,World Languages,Spanish I,9781680043198,José A Blanco,Descubre 1,Vista Higher Learning,2017,10450,MUST PURCHASE A NEW E-CODE FROM:
+Sophomore,World Languages,Mandarin II,9789620434594," Yamin Ma (Author), Shang Xiaomeng (Editor), Arthur Wang (Illustrator)",Chinese Made Easy 3rd Ed (Simplified) Textbook Level 2 (English and Chinese Edition),Joint Publishing (H.K.) Co. Ltd,2014,10458,
+Sophomore,World Languages,Mandarin II,9789620434662,"Yamin Ma (Author), Shang Xiaomeng (Editor), Arthur Wang (Illustrator)",Chinese Made Easy 3rd Ed (Simplified) Workbook Level 2 (English and Chinese Edition),Joint Publishing (H.K.) Co. Ltd,2014,10458,
+Junior,World Languages,"Mandarin III, Honors Mandarin III",9789620434679,"Yamin Ma, Xinying Li",Chinese Made Easy 3rd Ed (Simplified) Workbook Level 3 (English and Chinese Edition),Joint Publishing (H.K.) Co. Ltd,2015,10459,
+Junior ,World Languages,"Mandarin III, Honors Mandarin III",9789620434600,"Yamin Ma, Xinying Li",Chinese Made Easy 3rd Ed (Simplified) Textbook Level 3 (English and Chinese Edition),Joint Publishing (H.K.) Co. Ltd,2015,10459,
+Freshman Sophomore Junior Senior,World Languages,Spanish II,9781680043228,José A Blanco,Descubre 2,Vista Higher Learning,2017,10460,MUST PURCHASE A NEW E-CODE FROM:
+Freshman Sophomore Junior Senior,World Languages,Honors Spanish II,9781680043228,José A Blanco,Descubre 2,Vista Higher Learning,2017,10462,MUST PURCHASE A NEW E-CODE FROM:
+Sophomore Junior Senior,World Languages,Honors Spanish III,9781618572226,"Cole Conlin, Parthena Draggett, Max Ehrsam",Temas ,Vista Higher Learning,2014,10462,
+Sophomore Junior Senior,World Languages,Spanish III,9781680043235,José A Blanco,Descubre 3,Vista Higher Learning,2017,10470,
+Junior Senior,World Languages,AP Spanish,9781618572226,"Cole Conlin, Parthena Draggett, Max Ehrsam",Temas ,Vista Higher Learning,2014,10480,
+Junior Senior,World Languages,Spanish IV,9781938026362,"Megan Cory, Janet Parker, Catherine Schwenkler",Tejidos,Wayside Publishing,2013,10481,
+Freshman Sophomore,World Languages,Latin I,9780205078592,Charles Jenney,First Year Latin,Allyn and Bacon,1987,10490,SAME AS LATIN I
+Sophomore Junior,World Languages,Latin II,9780205078592,Charles Jenney,First Year Latin,Allyn and Bacon,1987,10495,
+Junior Senior,World Languages,Latin III,9780679729525,Virgil (Trans. by Robert Fitgerald),The Aeneid,Vintage Classics,1990,10496,
+Junior Senior,World Languages,Latin III,9780865167643,Barbara Weiden-Boyd,Vergil's Aeneid: Selected Readings ,Bolchazy-Carducci,2012,10496,
+Junior Senior,World Languages,Latin III,9780984306572,Geoffrey Steadman,College Caesar,Geoffrey Steadman,2011,10496,
