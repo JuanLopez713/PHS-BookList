@@ -1,3 +1,4 @@
+//Created by Juan Lopez 2017
 //PARSE THE CRV
 //(function(){
 //    alert("Make note of the course ids found on your class schedules to use this tool.");
@@ -71,7 +72,7 @@ function searchTable() {
 //SAVE PDF FUNCTION
 var doc = new jsPDF('landscape');
 $('#printbutt').click(function () {
-    var columns = ["Grade", "Department", "Course", "ISBN", "Author", "Title", "Publisher", "Edition", "Course Code", "Notes"];
+    var columns = ["Grade", "Department", "Course", "ISBN", "Author", "Title", "Publisher", "Edition", "Course ID", "Notes"];
     var myBooks = [];
     myBooks.push(columns);
     $("#books tr").each(function () {
@@ -81,9 +82,6 @@ $('#printbutt').click(function () {
             tableData.each(function () {
                 arrayOfThisRow.push($(this).text());
             });
-            //            var isbn = arrayOfThisRow[3];
-            //           
-            //            arrayOfThisRow[3] =  doc.textWithLink(isbn, { url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn });
             myBooks.push(arrayOfThisRow);
         }
     });
@@ -97,14 +95,8 @@ $('#printbutt').click(function () {
         for (var i = 1; i < tr.length; i++) {
             if (tr[i].style.display == "") {
                 rowsd.push(myBooks[i]);
-                //console.log("concatenating row: " + i);
             }
         }
-        //        for (var x = 0; x < rowsd.length; x++) {
-        //            var isbn = rowsd[x][3].text;
-        //            console.log(isbn);
-        //            rowsd[x][3] = 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + rowsd[x][3];
-        //        }
         var links = [];
         doc.autoTable(myBooks[0], rowsd, {
             theme: 'striped'
@@ -112,51 +104,51 @@ $('#printbutt').click(function () {
                 overflow: 'linebreak'
                 , columnWidth: 27
             }
-//            , drawCell: function (cell, opts) {
-//                if (opts.column.dataKey === 3) {
-//                    
-//                        links.push({
-//                            x: cell.textPos.x
-//                            , y: cell.textPos.y
-//                        });
-//                        //console.log("Adding Cell Position x: " + cell.textPos.x + " y: " + cell.textPos.y);
-//                    
-//                }
-//            }
-//            , addPageContent: function () {
-//                console.log("Row length:" + rowsd.length);
-//                console.log("Link length:" + links.length);
-//                if (links.length == 10) {
-//                    for (var i = 0; i < links.length; i++) {
-//                        if (rowsd[i][3]) {
-//                            console.log(i + "THE ISBN IS: " + rowsd[i][3]);
-//                            var isbn = rowsd[i][3];
-//                            doc.textWithLink('Buy Here', links[i].x, links[i].y + 10, {
-//                                url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn
-//                            });
-//                        }
-//                        else {
-//                            console.log("No isbn number for: " + rowsd[i][8]);
-//                            console.log("This is the problem row: " + rowsd[i]);
-//                        }
-//                    }
-//                }
-//                else if (links.length > 10) {
-//                    for (var i = 10; i < links.length - 1; i++) {
-//                        if (rowsd[i][3]) {
-//                            console.log(i + "THE ISBN IS: " + rowsd[i][3]);
-//                            var isbn = rowsd[i][3];
-//                            doc.textWithLink('Buy Here', links.x, links[i].y + 20, {
-//                                url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn
-//                            });
-//                        }
-//                        else {
-//                            console.log(i + "No isbn number for: " + rowsd[i][8]);
-//                            console.log("This is the problem row: " + rowsd[i]);
-//                        }
-//                    }
-//                }
-//            }
+            //            , drawCell: function (cell, opts) {
+            //                if (opts.column.dataKey === 3) {
+            //                    
+            //                        links.push({
+            //                            x: cell.textPos.x
+            //                            , y: cell.textPos.y
+            //                        });
+            //                        //console.log("Adding Cell Position x: " + cell.textPos.x + " y: " + cell.textPos.y);
+            //                    
+            //                }
+            //            }
+            //            , addPageContent: function () {
+            //                console.log("Row length:" + rowsd.length);
+            //                console.log("Link length:" + links.length);
+            //                if (links.length == 10) {
+            //                    for (var i = 0; i < links.length; i++) {
+            //                        if (rowsd[i][3]) {
+            //                            console.log(i + "THE ISBN IS: " + rowsd[i][3]);
+            //                            var isbn = rowsd[i][3];
+            //                            doc.textWithLink('Buy Here', links[i].x, links[i].y + 10, {
+            //                                url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn
+            //                            });
+            //                        }
+            //                        else {
+            //                            console.log("No isbn number for: " + rowsd[i][8]);
+            //                            console.log("This is the problem row: " + rowsd[i]);
+            //                        }
+            //                    }
+            //                }
+            //                else if (links.length > 10) {
+            //                    for (var i = 10; i < links.length - 1; i++) {
+            //                        if (rowsd[i][3]) {
+            //                            console.log(i + "THE ISBN IS: " + rowsd[i][3]);
+            //                            var isbn = rowsd[i][3];
+            //                            doc.textWithLink('Buy Here', links[i].x, links[i].y + 20, {
+            //                                url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn
+            //                            });
+            //                        }
+            //                        else {
+            //                            console.log(i + "No isbn number for: " + rowsd[i][8]);
+            //                            console.log("This is the problem row: " + rowsd[i]);
+            //                        }
+            //                    }
+            //                }
+            //            }
         });
         doc.save('table.pdf');
     }
