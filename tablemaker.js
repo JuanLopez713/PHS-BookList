@@ -28,11 +28,27 @@ function urlEncoder() {
     var tr = table.getElementsByTagName("tr");
     for (var i = 0; i < tr.length; i++) {
         var td = tr[i].getElementsByTagName("td")[3];
+//        var course = tr[i].getElementsByTagName("td")[8];
+//        var id;
+//        var notes = tr[i].getElementsByTagName("td")[9];
         if (td) {
+//            id = course.innerHTML;
             var str = td.innerHTML;
-            td.innerHTML = '<a target="_blank" href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + str + '">' + str + '</a>';
+            td.innerHTML = '<a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + str + '">' + str + '</a>';
+            
         }
+//         if(id =10450||"10460"||"10462"||"10470"||"10472"){
+//            notes.innerHTML = "MUST PURCHASE A NEW SUPERSITE CODE FROM" + '<a href="http://vistahigherlearning.com/students/store/spanish-programs.html">'+ "THIS LINK" +'</a>';
+//            
+//        }
+       
+        
     }
+    
+    
+    
+    
+    
 }
 var tr, td;
 var column, row;
