@@ -28,16 +28,25 @@ function urlEncoder() {
     var tr = table.getElementsByTagName("tr");
     for (var i = 0; i < tr.length; i++) {
         var td = tr[i].getElementsByTagName("td")[3];
-//        var course = tr[i].getElementsByTagName("td")[8];
-//        var id;
+        var course = tr[i].getElementsByTagName("td")[8];
+        var id;
 //        var notes = tr[i].getElementsByTagName("td")[9];
         if (td) {
-//            id = course.innerHTML;
+            id = course.innerHTML;
             var str = td.innerHTML;
+            console.log(id);
             td.innerHTML = '<a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + str + '">' + str + '</a>';
+            if (id == 10450){
+                
+                td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-1.html">' + str + '</a>';
+            }else if (id == 10460){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-2.html">' + str + '</a>';}
+            else if (id == 10462){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-2.html">' + str + '</a>';}
+            else if (id == 10470){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-3.html">' + str + '</a>';}
+            else if (id == 10472){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-3.html">' + str + '</a>';}
+            else if (id == 10480){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/temas-y-contextos.html">' + str + '</a>';}
             
         }
-//         if(id =10450||"10460"||"10462"||"10470"||"10472"){
+//         if(id = 10450||"10460"||"10462"||"10470"||"10472"){
 //            notes.innerHTML = "MUST PURCHASE A NEW SUPERSITE CODE FROM" + '<a href="http://vistahigherlearning.com/students/store/spanish-programs.html">'+ "THIS LINK" +'</a>';
 //            
 //        }
