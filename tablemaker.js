@@ -30,7 +30,7 @@ function urlEncoder() {
         var td = tr[i].getElementsByTagName("td")[3];
         var course = tr[i].getElementsByTagName("td")[8];
         var id;
-        //        var notes = tr[i].getElementsByTagName("td")[9];
+        var notes = tr[i].getElementsByTagName("td")[9];
         if (td) {
             id = course.innerHTML;
             var str = td.innerHTML;
@@ -38,15 +38,19 @@ function urlEncoder() {
             td.innerHTML = '<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Dstripbooks&field-keywords=' + str + '">' + str + '</a>';
             if (id == 10450) {
                 td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-1.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW SUPERSITE CODE FROM ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-1.html">' + 'http://bit.ly/2r4eu5h' + '</a>';
             }
             else if (id == 10460 || id == 10462) {
                 td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-2.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW SUPERSITE CODE FROM ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-2.html">' + 'http://bit.ly/2r4nsPH' + '</a>';
             }
             else if (id == 10470 || id == 10472) {
                 td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-3.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW SUPERSITE CODE FROM ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-3.html">' + 'http://bit.ly/2qn6Txq' + '</a>';
             }
             else if (id == 10480) {
                 td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/temas-y-contextos.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW SUPERSITE CODE FROM ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/temas-y-contextos.html">' + 'http://bit.ly/1sszW0H' + '</a>';
             }
         }
         //         if(id = 10450||"10460"||"10462"||"10470"||"10472"){
