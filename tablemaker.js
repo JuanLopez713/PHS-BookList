@@ -30,34 +30,30 @@ function urlEncoder() {
         var td = tr[i].getElementsByTagName("td")[3];
         var course = tr[i].getElementsByTagName("td")[8];
         var id;
-//        var notes = tr[i].getElementsByTagName("td")[9];
+        //        var notes = tr[i].getElementsByTagName("td")[9];
         if (td) {
             id = course.innerHTML;
             var str = td.innerHTML;
             console.log(id);
             td.innerHTML = '<a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + str + '">' + str + '</a>';
-            if (id == 10450){
-                
+            if (id == 10450) {
                 td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-1.html">' + str + '</a>';
-            }else if (id == 10460){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-2.html">' + str + '</a>';}
-            else if (id == 10462){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-2.html">' + str + '</a>';}
-            else if (id == 10470){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-3.html">' + str + '</a>';}
-            else if (id == 10472){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-3.html">' + str + '</a>';}
-            else if (id == 10480){td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/temas-y-contextos.html">' + str + '</a>';}
-            
+            }
+            else if (id == 10460 || id == 10462) {
+                td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-2.html">' + str + '</a>';
+            }
+            else if (id == 10470 || id == 10472) {
+                td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-3.html">' + str + '</a>';
+            }
+            else if (id == 10480) {
+                td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/temas-y-contextos.html">' + str + '</a>';
+            }
         }
-//         if(id = 10450||"10460"||"10462"||"10470"||"10472"){
-//            notes.innerHTML = "MUST PURCHASE A NEW SUPERSITE CODE FROM" + '<a href="http://vistahigherlearning.com/students/store/spanish-programs.html">'+ "THIS LINK" +'</a>';
-//            
-//        }
-       
-        
+        //         if(id = 10450||"10460"||"10462"||"10470"||"10472"){
+        //            notes.innerHTML = "MUST PURCHASE A NEW SUPERSITE CODE FROM" + '<a href="http://vistahigherlearning.com/students/store/spanish-programs.html">'+ "THIS LINK" +'</a>';
+        //            
+        //        }
     }
-    
-    
-    
-    
-    
 }
 var tr, td;
 var column, row;
@@ -97,72 +93,73 @@ function searchTable() {
 //SAVE PDF FUNCTION
 var doc = new jsPDF('landscape');
 $('#printbutt').click(function () {
-            var columns = ["Grade", "Department", "Course", "ISBN", "Author", "Title", "Publisher", "Edition", "Course ID", "Notes"];
-            var myBooks = [];
-            myBooks.push(columns);
-            $("#books tr").each(function () {
-                var arrayOfThisRow = [];
-                var tableData = $(this).find('td');
-                if (tableData.length > 0) {
-                    tableData.each(function () {
-                        arrayOfThisRow.push($(this).text());
-                    });
-                    myBooks.push(arrayOfThisRow);
-                }
+    var columns = ["Grade", "Department", "Course", "ISBN", "Author", "Title", "Publisher", "Edition", "Course ID", "Notes"];
+    var myBooks = [];
+    myBooks.push(columns);
+    $("#books tr").each(function () {
+        var arrayOfThisRow = [];
+        var tableData = $(this).find('td');
+        if (tableData.length > 0) {
+            tableData.each(function () {
+                arrayOfThisRow.push($(this).text());
             });
-            var rowsd = [];
-            var input = document.getElementById("emp_search");
-            filter = input.value;
-            if (!filter) {
-                alert("Please Type your Course IDs into the Search Bar");
+            myBooks.push(arrayOfThisRow);
+        }
+    });
+    var rowsd = [];
+    var input = document.getElementById("emp_search");
+    filter = input.value;
+    if (!filter) {
+        alert("Please Type your Course IDs into the Search Bar");
+    }
+    else {
+        for (var i = 1; i < tr.length; i++) {
+            if (tr[i].style.display == "") {
+                rowsd.push(myBooks[i]);
             }
-            else {
-                for (var i = 1; i < tr.length; i++) {
-                    if (tr[i].style.display == "") {
-                        rowsd.push(myBooks[i]);
-                    }
-                }
-                var links = [];
-                doc.autoTable(myBooks[0], rowsd, {
-                    styles: {
-                        fontSize: 10
-                        , overflow: 'linebreak'
-                        , columnWidth: 27
-                    }
-                    , headerStyles: {
-                        fillColor: [0, 80, 58]
-                    }
-//                    , drawCell: function (cell, rowsd) {
-//                        if (rowsd.column.dataKey === 3) {
-//                            links.push({
-//                                x: cell.textPos.x
-//                                , y: cell.textPos.y
-//                            });
-//                        }
-//                    }
-//                    , addPageContent: function () {
-//                        console.log("Row length:" + rowsd.length);
-//                        console.log("Link length:" + links.length);
-//                        for (var i = 0; i < rowsd.length; i++) {
-//                            if (rowsd[i][3]) {
-//                                console.log(i + "THE ISBN IS: " + rowsd[i][3]);
-//                                var isbn = rowsd[i][3];
-//                                if(links.length <= 10){
-//                                doc.textWithLink('Buy Here', links[i].x, links[i].y + 10, {
-//                                    url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn
-//                                });
-//                                }
-//                                else if(links.length>=10){
-//                                    doc.textWithLink('Buy Here', links[i-9].x, links[i-9].y + 10, {
-//                                    url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn
-//                                }); 
-//                                }
-//                            }else{
-//                                console.log(i + "NO ISBN FOR: " + rowsd[i][8]);
-//                            }
-//                        }
-//                    }
-                });
-                doc.save('table.pdf');
-            }} );
-        //10830 10410 10512 10101 10210 10332 10620
+        }
+        var links = [];
+        doc.autoTable(myBooks[0], rowsd, {
+            styles: {
+                fontSize: 10
+                , overflow: 'linebreak'
+                , columnWidth: 27
+            }
+            , headerStyles: {
+                fillColor: [0, 80, 58]
+            }
+            //                    , drawCell: function (cell, rowsd) {
+            //                        if (rowsd.column.dataKey === 3) {
+            //                            links.push({
+            //                                x: cell.textPos.x
+            //                                , y: cell.textPos.y
+            //                            });
+            //                        }
+            //                    }
+            //                    , addPageContent: function () {
+            //                        console.log("Row length:" + rowsd.length);
+            //                        console.log("Link length:" + links.length);
+            //                        for (var i = 0; i < rowsd.length; i++) {
+            //                            if (rowsd[i][3]) {
+            //                                console.log(i + "THE ISBN IS: " + rowsd[i][3]);
+            //                                var isbn = rowsd[i][3];
+            //                                if(links.length <= 10){
+            //                                doc.textWithLink('Buy Here', links[i].x, links[i].y + 10, {
+            //                                    url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn
+            //                                });
+            //                                }
+            //                                else if(links.length>=10){
+            //                                    doc.textWithLink('Buy Here', links[i-9].x, links[i-9].y + 10, {
+            //                                    url: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=' + isbn
+            //                                }); 
+            //                                }
+            //                            }else{
+            //                                console.log(i + "NO ISBN FOR: " + rowsd[i][8]);
+            //                            }
+            //                        }
+            //                    }
+        });
+        doc.save('table.pdf');
+    }
+});
+//10830 10410 10512 10101 10210 10332 10620
