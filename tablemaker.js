@@ -33,13 +33,13 @@ function urlEncoder() {
         var notes = tr[i].getElementsByTagName("td")[9];
         if (td) {
             id = course.innerHTML;
-            var str = td.innerHTML;
+            var str = 9781680045239;
             console.log(id);
             td.innerHTML = '<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Dstripbooks&field-keywords=' + str + '">' + str + '</a>';
             //IF SPANISH I
             if (id == 10450) {
                 td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-1.html">' + str + '</a>';
-                notes.innerHTML ='MUST PURCHASE NEW SUPERSITE CODE FROM ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-1.html">' + 'http://bit.ly/2r4eu5h' + '</a>';
+                notes.innerHTML ='PURCHASE FIRST PACKAGE LISTED on site = 9781680045239 ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-1.html">' + 'http://bit.ly/2r4eu5h' + '</a>';
             }
             //IF SPANISH II OR HONORS SPANISH II
             else if (id == 10460 || id == 10462) {
