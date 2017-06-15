@@ -33,7 +33,7 @@ function urlEncoder() {
         var notes = tr[i].getElementsByTagName("td")[9];
         if (td) {
             id = course.innerHTML;
-            var str = 9781680045239;
+            var str = td.innerHTML;
             console.log(id);
             td.innerHTML = '<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Dstripbooks&field-keywords=' + str + '">' + str + '</a>';
             //IF SPANISH I
