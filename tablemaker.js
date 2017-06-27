@@ -4,7 +4,7 @@
 //    alert("Make note of the course ids found on your class schedules to use this tool.");
 //})();
 $(function () {
-    var results = Papa.parse("BookList2017.csv?V=6", {
+    var results = Papa.parse("BookList2017.csv?V=7", {
         header: true
         , download: true
         , complete: function (results) {
