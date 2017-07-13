@@ -4,7 +4,7 @@
 //    alert("Make note of the course ids found on your class schedules to use this tool.");
 //})();
 $(function () {
-    var results = Papa.parse("BookList2017.csv?V=11", {
+    var results = Papa.parse("BookList2017.csv?V=12", {
         header: true
         , download: true
         , complete: function (results) {
@@ -38,18 +38,18 @@ function urlEncoder() {
             td.innerHTML = '<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Dstripbooks&field-keywords=' + str + '">' + str + '</a>';
             //IF SPANISH I
             if (id == 10450) {
-                td.innerHTML = '<a href="https://vistahigherlearning.com/descubre-1-2017.html">' + str + '</a>';
-                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/descubre-1-2017.html">' + 'VISTA HIGHER LEARNING' + '</a>';
+                td.innerHTML = '<a href="https://vistahigherlearning.com/descubre-1-2019.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/descubre-1-2019.html">' + 'VISTA HIGHER LEARNING' + '</a>';
             }
             //IF SPANISH II OR HONORS SPANISH II
             else if (id == 10460 || id == 10462) {
-                td.innerHTML = '<a href="https://vistahigherlearning.com/descubre-2-2017.html">' + str + '</a>';
-                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/descubre-2-2017.html">' + 'VISTA HIGHER LEARNING' + '</a>';
+                td.innerHTML = '<a href="https://vistahigherlearning.com/descubre-2-2019.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/descubre-2-2019.html">' + 'VISTA HIGHER LEARNING' + '</a>';
             }
             //IF SPANISH III OR HONORS SPANISH III
             else if (id == 10470 || id == 10472) {
-                td.innerHTML = '<a href="https://vistahigherlearning.com/descubre-3-2017.html">' + str + '</a>';
-                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/descubre-3-2017.html">' + 'VISTA HIGHER LEARNING' + '</a>';
+                td.innerHTML = '<a href="https://vistahigherlearning.com/descubre-3-2019.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/descubre-3-2019.html">' + 'VISTA HIGHER LEARNING' + '</a>';
             }
             //IF AP SPANISH
             else if (id == 10480) {
