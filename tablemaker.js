@@ -4,7 +4,7 @@
 //    alert("Make note of the course ids found on your class schedules to use this tool.");
 //})();
 $(function () {
-    var results = Papa.parse("BookList2017.csv?V=10", {
+    var results = Papa.parse("BookList2017.csv?V=11", {
         header: true
         , download: true
         , complete: function (results) {
@@ -38,23 +38,23 @@ function urlEncoder() {
             td.innerHTML = '<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Dstripbooks&field-keywords=' + str + '">' + str + '</a>';
             //IF SPANISH I
             if (id == 10450) {
-                td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-1.html">' + str + '</a>';
-                notes.innerHTML ='PURCHASE FIRST PACKAGE LISTED on site = 9781680045239 ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-1.html">' + 'http://bit.ly/2r4eu5h' + '</a>';
+                td.innerHTML = '<a href="https://vistahigherlearning.com/descubre-1-2017.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/descubre-1-2017.html">' + 'VISTA HIGHER LEARNING' + '</a>';
             }
             //IF SPANISH II OR HONORS SPANISH II
             else if (id == 10460 || id == 10462) {
-                td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-2.html">' + str + '</a>';
-                notes.innerHTML ='MUST PURCHASE NEW SUPERSITE CODE FROM ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-2.html">' + 'http://bit.ly/2r4nsPH' + '</a>';
+                td.innerHTML = '<a href="https://vistahigherlearning.com/descubre-2-2017.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/descubre-2-2017.html">' + 'VISTA HIGHER LEARNING' + '</a>';
             }
             //IF SPANISH III OR HONORS SPANISH III
             else if (id == 10470 || id == 10472) {
-                td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-3.html">' + str + '</a>';
-                notes.innerHTML ='MUST PURCHASE NEW SUPERSITE CODE FROM ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/descubre-c2017-level-3.html">' + 'http://bit.ly/2qn6Txq' + '</a>';
+                td.innerHTML = '<a href="https://vistahigherlearning.com/descubre-3-2017.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/descubre-3-2017.html">' + 'VISTA HIGHER LEARNING' + '</a>';
             }
             //IF AP SPANISH
             else if (id == 10480) {
-                td.innerHTML = '<a href="http://vistahigherlearning.com/students/store/spanish-programs/temas-y-contextos.html">' + str + '</a>';
-                notes.innerHTML ='MUST PURCHASE NEW SUPERSITE CODE FROM ' + '<a href="http://vistahigherlearning.com/students/store/spanish-programs/temas-y-contextos.html">' + 'http://bit.ly/1sszW0H' + '</a>';
+                td.innerHTML = '<a href="https://vistahigherlearning.com/temas.html">' + str + '</a>';
+                notes.innerHTML ='MUST PURCHASE NEW BOOK AND SUPERSITE CODE FROM ' + '<a href="https://vistahigherlearning.com/temas.html">' + 'VISTA HIGHER LEARNING' + '</a>';
             }
         }
         //         if(id = 10450||"10460"||"10462"||"10470"||"10472"){
